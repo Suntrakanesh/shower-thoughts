@@ -42,7 +42,8 @@ function App() {
 	}
 
 	return (
-		<div className="card">
+		
+		<div >
 			<form onSubmit={onMessageSubmit}>
 				<h1>Messenger</h1>
 				<div className="name-field">
@@ -60,8 +61,8 @@ function App() {
 				</div>
 				<button>Send Message</button>
 			</form>
-			<div className="render-chat">
-				<h1>Chat Log</h1>
+			<div >
+				<h1>Discussion</h1>
 				{renderChat()}
 			</div>
 		</div>
